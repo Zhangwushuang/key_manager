@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <title>富融科技区块链密钥管理器——创建密钥</title>
+        <link rel="stylesheet" href="fonts/iconfont.css"/>
+        <link rel="stylesheet" href="css/font.css"/>
+        <link rel="stylesheet" href="css/weui.min.css"/>
+        <link rel="stylesheet" href="css/jquery-weui.min.css"/>
+        <link rel="stylesheet" href="css/mui.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+        <link rel="stylesheet" href="css/x0popup.min.css"/>
+        <link rel="stylesheet" href="css/pages/creat_key.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="titlebar reverse">
+                <h1>创建新密钥</h1>
+            </div>
+        </header>
+        <article style="bottom: 0;">
+            <form><ul class="xunjia-box">
+                <li class="inner">
+                    <div class="item-name" style="color: red">文件名：</div>
+                    <div class="item-value">
+                        <div class="input-wrap">
+                            <input type="text" name="path" placeholder="生成的密钥文件的文件名(必填)">
+                        </div>
+                    </div>
+                </li>                
+                <li class="inner">
+                    <div class="item-name">手机号：</div>
+                    <div class="item-value">
+                        <div class="input-wrap">
+                            <input type="text" name="mobile" placeholder="使用者的手机号">
+                        </div>
+                    </div>
+                </li>
+                <li class="inner">
+                    <div class="item-name">姓名：</div>
+                    <div class="item-value">
+                        <div class="input-wrap">
+                            <input type="text" name="name" placeholder="使用者的姓名">
+                        </div>
+                    </div>
+                </li>
+                <li class="inner">
+                    <div class="item-name">身份证号码：</div>
+                    <div class="item-value">
+                        <div class="input-wrap">
+                            <input type="text" name="id" placeholder="使用者的身份证号码">
+                        </div>
+                    </div>
+                </li>
+                <li class="inner">
+                    <div class="item-name" style="color: red">加密密码：</div>
+                    <div class="item-value">
+                        <div class="input-wrap">
+                            <input type="password" name="psw1" placeholder="用于对密钥进行加密的密码(必填)">
+                        </div>
+                    </div>
+                </li>
+                <li class="inner">
+                    <div class="item-name" style="color: red">重复密码：</div>
+                    <div class="item-value">
+                        <div class="input-wrap">
+                            <input type="password" name="psw2" placeholder="请重复输入一次密码(必填)">
+                        </div>
+                    </div>
+                </li>
+                <li style="padding: 0px 15px">
+                    <div class="item-value">
+                        <div class="a-wrap" style="width: auto">
+                            <a class="weui_btn weui_btn_primary" id="creat_key">提交</a>
+                            <a href="./choose_key.html" class="weui_btn weui_btn_primary" style="background:#f60">返回</a>
+                        </div>
+                    </div>
+                </li>
+            </ul></form>
+        </article>
+        <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="./js/x0popup.min.js"></script>
+        <script type="text/javascript"  src="./js/creat_key.js"></script>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{883aa6c3-7076-4d98-a226-c61aa3aca5f0}</ProjectGuid>
+        <ProjectHome>.</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>chain_process.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="新建文本文档.txt" />
+        <Content Include="logo.ico" />
+        <Content Include="package-lock.json" />
+        <Content Include="package.json" />
+        <Content Include="chain_process.js" />
+        <Content Include="main.js" />
+        <Content Include="config\host.json" />
+        <Content Include="html\choose_key.html" />
+        <Content Include="html\creat_key.html" />
+        <Content Include="libs\chain_funcs.js" />
+        <Content Include="libs\crypt_funcs.js" />
+        <Content Include="libs\errors.js" />
+        <Content Include="libs\page_funcs.js" />
+        <Content Include="libs\regexes.js" />
+        <Content Include="libs\WinSize.js" />
+        <Content Include="html\css\animate.css" />
+        <Content Include="html\css\font.css" />
+        <Content Include="html\css\jquery-weui.min.css" />
+        <Content Include="html\css\mui.css" />
+        <Content Include="html\css\weui.min.css" />
+        <Content Include="html\css\x0popup.min.css" />
+        <Content Include="html\fonts\demo.html" />
+        <Content Include="html\fonts\demo.css" />
+        <Content Include="html\fonts\iconfont.css" />
+        <Content Include="html\fonts\fontawesome-webfont.svg" />
+        <Content Include="html\fonts\iconfont.svg" />
+        <Content Include="html\images\login_logo_w.png" />
+        <Content Include="html\images\new.png" />
+        <Content Include="html\images\icon.jpg" />
+        <Content Include="html\images\poster.jpg" />
+        <Content Include="html\images\vcode.jpg" />
+        <Content Include="html\js\choose_key.js" />
+        <Content Include="html\js\city-picker.js" />
+        <Content Include="html\js\city-picker.min.js" />
+        <Content Include="html\js\creat_key.js" />
+        <Content Include="html\js\jquery-1.8.3.min.js" />
+        <Content Include="html\js\jquery-weui.js" />
+        <Content Include="html\js\jquery-weui.min.js" />
+        <Content Include="html\js\swiper.js" />
+        <Content Include="html\js\swiper.min.js" />
+        <Content Include="html\js\x0popup.min.js" />
+        <Content Include="html\lib\weui.css" />
+        <Content Include="html\lib\weui.min.css" />
+        <Content Include="html\lib\jquery-2.1.4.js" />
+        <Content Include="html\css\pages\choose_key.css" />
+        <Content Include="html\css\pages\creat_key.css" />
+        <Content Include="html\css\pages\key_info.css" />
+        <Content Include="html\images\timeline\arrow.png" />
+        <Content Include="html\images\timeline\blank.png" />
+        <Content Include="html\images\timeline\dot.png" />
+        <Content Include="html\images\timeline\down.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="config" />
+        <Folder Include="html" />
+        <Folder Include="html\css" />
+        <Folder Include="html\css\pages" />
+        <Folder Include="html\fonts" />
+        <Folder Include="html\images" />
+        <Folder Include="html\images\timeline" />
+        <Folder Include="html\js" />
+        <Folder Include="html\lib" />
+        <Folder Include="key_manager" />
+        <Folder Include="keys" />
+        <Folder Include="libs" />
+        <Folder Include="OutApp" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

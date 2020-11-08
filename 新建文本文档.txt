@@ -1,0 +1,137 @@
+﻿
+chown www-data /var/smart_chain/RESTful_php
+chown www-data /var/smart_chain/t_audit
+
+zhangwushuangfurong2019
+http://tool.hibbba.com/websocket/
+http://docs.chainsql.net/interface/websocket.html#id1
+N5YEa5aK8uPyS2IwbXA8E5OIqXLKZ5CU
+
+zxvStjpJpmWn23rBsbTry1vuB41qACXieH  91430407MA4PDQHT4M 91440116665939442A(科城)
+
+0MGq1zKYMgueKr0F chain_admin
+
+1000,0000,0000,0000,00
+10,0000,0000,0000,0000
+
+zck4cn9KMPtTDj99vZwsL2Ya2vHdWBWERB cBRxayWCTSyqRocsgu1QTNWXKEnVJNAEAeKAeRTYkCcSm2shRYwt
+
+submit的是需要订阅结果的，由管理器完成
+
+gen
+
+sign
+
+pay 
+accountSet
+trustSet
+createTable
+renameTable
+
+dropTable
+insert
+update
+delete
+grant
+
+Transaction//数据库事务
+
+请求结构
+第一级   
+action(string 取值 get, sign,....), 
+
+host
+
+key(签名用的，obj)
+
+tableOwnerAddr(string / dbSimple,dbTrans) 
+
+expect(返回时机 string )
+
+payload(具体要干什么，tran时为数组，其余为对象)
+
+https://39.108.220.179:8081/
+
+------WebKitFormBoundaryOoyOkq23oBsBl34X
+Content-Disposition: form-data; name="OSSAccessKeyId"
+
+LTAI0i88kRmD3ISt
+------WebKitFormBoundaryOoyOkq23oBsBl34X
+Content-Disposition: form-data; name="policy"
+
+eyJleHBpcmF0aW9uIjoiMjAxOS0wNy0wM1QxNToxMDoyN1oiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwyMDk3MTUyXSxbInN0YXJ0cy13aXRoIiwiJGtleSIsIjkxNDMwNDA3TUE0UERRSFQ0TS8iXV19
+------WebKitFormBoundaryOoyOkq23oBsBl34X
+Content-Disposition: form-data; name="Signature"
+
+v6bxhoJanyEr+3blWecfCLn/N5s=
+------WebKitFormBoundaryOoyOkq23oBsBl34X
+Content-Disposition: form-data; name="key"
+
+91430407MA4PDQHT4M/635f39dc9156a79750e1ae160b0632d50cdb6422e24cee497e360c1dbf3f9f9f/53737c80-7e7d-11e9-9cc8-796e5b675955
+------WebKitFormBoundaryOoyOkq23oBsBl34X
+Content-Disposition: form-data; name="success_action_status"
+
+201
+------WebKitFormBoundaryOoyOkq23oBsBl34X
+Content-Disposition: form-data; name="file"; filename="2.jpg"
+Content-Type: image/jpeg
+
+------WebKitFormBoundaryOoyOkq23oBsBl34X--
+
+111111111111111111111111111111111111111111111111111111111111111
+
+------WebKitFormBoundaryeCAQX1UeuLVmBgj5
+Content-Disposition: form-data; name="OSSAccessKeyId"
+
+LTAI0i88kRmD3ISt
+------WebKitFormBoundaryeCAQX1UeuLVmBgj5
+Content-Disposition: form-data; name="policy"
+
+eyJleHBpcmF0aW9uIjoiMjAxOS0wNy0wM1QxNToxMDoyN1oiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwyMDk3MTUyXSxbInN0YXJ0cy13aXRoIiwiJGtleSIsIjkxNDMwNDA3TUE0UERRSFQ0TS8iXV19
+------WebKitFormBoundaryeCAQX1UeuLVmBgj5
+Content-Disposition: form-data; name="Signature"
+
+v6bxhoJanyEr+3blWecfCLn/N5s=
+------WebKitFormBoundaryeCAQX1UeuLVmBgj5
+Content-Disposition: form-data; name="key"
+
+91430407MA4PDQHT4M/635f39dc9156a79750e1ae160b0632d50cdb6422e24cee497e360c1dbf3f9f9f/53737c80-7e7d-11e9-9cc8-796e5b675955
+------WebKitFormBoundaryeCAQX1UeuLVmBgj5
+Content-Disposition: form-data; name="success_action_status"
+
+201
+------WebKitFormBoundaryeCAQX1UeuLVmBgj5
+Content-Disposition: form-data; name="file"; filename="2.jpg"
+Content-Type: image/jpeg
+
+
+------WebKitFormBoundaryeCAQX1UeuLVmBgj5--
+
+###############
+
+------WebKitFormBoundary7kAj4KAgyaMPDKtn
+Content-Disposition: form-data; name="OSSAccessKeyId"
+
+LTAI0i88kRmD3ISt
+------WebKitFormBoundary7kAj4KAgyaMPDKtn
+Content-Disposition: form-data; name="policy"
+
+eyJleHBpcmF0aW9uIjoiMjAxOS0wNy0wM1QxNToxMDoyN1oiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwyMDk3MTUyXSxbInN0YXJ0cy13aXRoIiwiJGtleSIsIjkxNDMwNDA3TUE0UERRSFQ0TS8iXV19
+------WebKitFormBoundary7kAj4KAgyaMPDKtn
+Content-Disposition: form-data; name="Signature"
+
+v6bxhoJanyEr+3blWecfCLn/N5s=
+------WebKitFormBoundary7kAj4KAgyaMPDKtn
+Content-Disposition: form-data; name="key"
+
+91430407MA4PDQHT4M/635f39dc9156a79750e1ae160b0632d50cdb6422e24cee497e360c1dbf3f9f9f/53737c80-7e7d-11e9-9cc8-796e5b675955
+------WebKitFormBoundary7kAj4KAgyaMPDKtn
+Content-Disposition: form-data; name="success_action_status"
+
+201
+------WebKitFormBoundary7kAj4KAgyaMPDKtn
+Content-Disposition: form-data; name="file"; filename="2.jpg"
+Content-Type: image/jpeg
+
+
+------WebKitFormBoundary7kAj4KAgyaMPDKtn--
